@@ -1,0 +1,39 @@
+<!DOCTYPE liga SYSTEM "jugadores.dtd">
+<liga>
+  <jugador>
+    <nombre>LeBron</nombre>
+    <apellidos>James</apellidos>
+    <equipo>
+      <ciudad>Los Angeles</ciudad>
+      <presidente>
+        <nombrePresidente>Jeanie</nombrePresidente>
+        <apellidosPresidente>Buss</apellidosPresidente>
+      </presidente>
+    </equipo>
+    <edad>38</edad>
+  </jugador>
+  <jugador>
+    <nombre>Stephen</nombre>
+    <apellidos>Curry</apellidos>
+    <equipo>
+      <ciudad>San Francisco</ciudad>
+      <presidente>
+        <nombrePresidente>Joe</nombrePresidente>
+        <apellidosPresidente>Lacob</apellidosPresidente>
+      </presidente>
+    </equipo>
+    <edad>35</edad>
+  </jugador>
+  <jugador>
+    <nombre>Luka</nombre>
+    <apellidos>Dončić</apellidos>
+    <equipo>
+      <ciudad>Dallas</ciudad>
+      <presidente>
+        <nombrePresidente>Mark</nombrePresidente>
+        <apellidosPresidente>Cuban</apellidosPresidente>
+      </presidente>
+    </equipo>
+    <edad>24</edad>
+  </jugador>
+</liga>

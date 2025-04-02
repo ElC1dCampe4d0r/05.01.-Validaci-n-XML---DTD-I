@@ -1,0 +1,39 @@
+<!DOCTYPE biblioteca [
+  <!ELEMENT biblioteca (libro+)>
+  <!ELEMENT libro (titulo, editorial, autor, num_paginas)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT editorial (#PCDATA)>
+  <!ELEMENT autor (nombre, apellidos)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT num_paginas (#PCDATA)>
+]>
+<biblioteca>
+  <libro>
+    <titulo>El señor de los anillos</titulo>
+    <editorial>Minotauro</editorial>
+    <autor>
+      <nombre>J.R.R.</nombre>
+      <apellidos>Tolkien</apellidos>
+    </autor>
+    <num_paginas>1000</num_paginas>
+  </libro>
+  <libro>
+    <titulo>Cien años de soledad</titulo>
+    <editorial>Sudamericana</editorial>
+    <autor>
+      <nombre>Gabriel</nombre>
+      <apellidos>García Márquez</apellidos>
+    </autor>
+    <num_paginas>432</num_paginas>
+  </libro>
+  <libro>
+    <titulo>1984</titulo>
+    <editorial>Secker &amp; Warburg</editorial>
+    <autor>
+      <nombre>George</nombre>
+      <apellidos>Orwell</apellidos>
+    </autor>
+    <num_paginas>328</num_paginas>
+  </libro>
+</biblioteca>
